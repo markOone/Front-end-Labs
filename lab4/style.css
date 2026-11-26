@@ -1,9 +1,39 @@
-.click-1{
+.click-1 {
     color: white;
     background-color: black;
 }
 
-.click-2{
-    color:black;
+.click-2 {
+    color: black;
     background-color: white;
+}
+
+button {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#pic {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#pic a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+}
+
+.img-box {
+    overflow: hidden;
+    width: fit-content;
+}
+
+.img-box img {
+    display: block;
+    transition: transform 0.1s;
 }
