@@ -49,7 +49,7 @@ minusButton.addEventListener("click", () => {
     if (box) {
         const img = box.querySelector("img");
         let scale = parseFloat(img.dataset.scale) || 1;
-        if (scale > 0.4) {
+        if (scale > 1.2) {
             scale -= 0.2;
             img.dataset.scale = scale;
             img.style.transform = `scale(${scale})`;
